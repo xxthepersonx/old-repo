@@ -1,0 +1,83 @@
+Package: com.person.ignoswipebacks
+Version: 0.0.1-1+debug
+Section: Tweaks
+Maintainer: xxthepersonx
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files//ignoswipebacks/packages/com.person.ignoswipebacks_0.0.1-1+debug_iphoneos-arm.deb
+Size: 2960
+Installed-Size: 120
+MD5sum: 03a1c5af709a1551d26920d77414b7da
+Description: Disable “swiping to go back” in Instagram. Helpful if it happens on accident while scrolling
+Name: IGNoSwipeBacks
+Author: xxthepersonx
+
+Package: com.person.nalb
+Version: 0.0.1-5+debug
+Section: Tweaks
+Maintainer: xxthepersonx
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files//NoAppLinkBanners/com.person.nalb_0.0.1-5+debug_iphoneos-arm.deb
+Size: 3878
+Installed-Size: 120
+MD5sum: 34004b64d0eba092f63b0f3470648b3c
+Description: Gets rid of App Store link banners in safari. No settings to configure!
+Name: NoAppLinkBanners
+Author: xxthepersonx
+
+Package: com.person.nopagedots
+Version: 1.0
+Section: Tweaks
+Maintainer: xxthepersonx
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files//nopagedots/packages/com.person.nopagedots_1.0_iphoneos-arm.deb
+Size: 2964
+Installed-Size: 120
+MD5sum: 5d0bb92552a6aa329f1d92099666ee67
+Description: Removes the page dots from the HomeScreen
+Name: NoPageDots
+Author: xxthepersonx
+
+Package: com.person.scrubup
+Version: 1.0
+Section: Tweaks
+Maintainer: xxthepersonx
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files//scrubup/packages/com.person.scrubup_1.0_iphoneos-arm.deb
+Size: 7498
+Installed-Size: 248
+MD5sum: 63f76e01a7c1316aad9f308a163e0fb3
+Description: Customize your lock screen scrubber size
+Name: ScrubUp
+Author: xxthepersonx
+
+Package: com.person.shhutter
+Version: 1.0.3-1
+Section: Tweaks
+Maintainer: xxthepersonx
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files//SHHutter/SHHutter.deb
+Size: 1984
+MD5sum: fa1b27179f4e90c1316c2cb01042d847
+Description: Renames the camera shutter sound so you dont hear it while taking pictures
+Name: SHHutter
+Author: xxthepersonx
+
+Package: com.person.snoozenomore
+Version: 0.0.1-1+debug
+Section: Tweaks
+Maintainer: person
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files//snoozenomore/packages/com.person.snoozenomore_0.0.1-1+debug_iphoneos-arm.deb
+Size: 2900
+Installed-Size: 120
+MD5sum: 907947d06fc3937808937a4a7c7b964d
+Description: Disables snoozing in the clock app!
+Name: SnoozeNoMore
+Author: person
+

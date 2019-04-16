@@ -1,2 +1,1 @@
-# repo
-xxthepersonx's Cydia repo
+# xxthepersonx.github.io
