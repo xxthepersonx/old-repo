@@ -1,0 +1,10 @@
+Package: com.person.ibypass
+Name: IngressBypass
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: xxhepersonx
+Author: xxhepersonx
+Section: Tweaks
+Version: 0.0.1-1+debug
+Installed-Size: 120
