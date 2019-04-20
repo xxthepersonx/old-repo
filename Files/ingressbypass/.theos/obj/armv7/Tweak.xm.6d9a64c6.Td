@@ -1,5 +1,5 @@
-/Users/zackstephens/Desktop/tweaks/ingressbypass/.theos/obj/debug/arm64/Tweak.xm.ccd179e6.o: \
-  /Users/zackstephens/Desktop/tweaks/ingressbypass/.theos/obj/debug/arm64/Tweak.xm.mm \
+/Users/zackstephens/Desktop/tweaks/ingressbypass/.theos/obj/armv7/Tweak.xm.6d9a64c6.o: \
+  /Users/zackstephens/Desktop/tweaks/ingressbypass/.theos/obj/armv7/Tweak.xm.mm \
   /Users/zackstephens/theos/Prefix.pch \
   /Users/zackstephens/theos/vendor/include/_Prefix/BackwardsCompat.h \
   /Users/zackstephens/theos/vendor/include/_Prefix/IOSMacros.h \
