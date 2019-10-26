@@ -13,13 +13,13 @@ Author: xxthepersonx
 
 Package: com.person.emojiporter12
 Version: 1.0
-Section: tweaks
+Section: Tweaks
 Maintainer: xxthepersonx
 Depends: com.ps.emojiportpe, mobilesubstrate, firmware (>= 12.0), curl
 Architecture: iphoneos-arm
 Filename: Files//EmojiPorter12/EmojiPorter12.deb
-Size: 1322
-MD5sum: bef7706d43370d660c27de8aeb572ec1
+Size: 1316
+MD5sum: 65b967ebd5fd2861e48184b6dd78bc6f
 Description: Installs the latest emojis to your device! For iOS 12 ONLY, make sure to add "https://poomsmart.github.io/repo/" to your repo list before installing! Warning: an extra ~70mb is needed to download new emojis
 Name: EmojiPorter (12)
 Author: xxthepersonx
