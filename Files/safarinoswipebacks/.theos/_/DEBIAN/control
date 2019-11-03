@@ -7,5 +7,5 @@ Architecture: iphoneos-arm
 Depends: mobilesubstrate
 Maintainer: xthepersonx
 Author: xthepersonx
-Version: 1.0
+Version: 1.0.1
 Installed-Size: 124

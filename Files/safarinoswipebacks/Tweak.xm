@@ -1,3 +1,4 @@
+%group Hook
 %hook _UIScreenEdgePanRecognizerEdgeSettings
 
 -(void)setEdgeRegionSize:(double)arg1 {
@@ -14,3 +15,11 @@ return 0;
 
 
 %end
+%end
+
+%ctor {
+NSString *bundleID = NSBundle.mainBundle.bundleIdentifier;
+if ([bundleID isEqualToString:@"com.apple.mobilesafari"]) {
+%init(Hook);
+}
+}

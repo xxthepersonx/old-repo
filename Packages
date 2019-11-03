@@ -122,16 +122,16 @@ Name: SnoozeNoMore
 Author: person
 
 Package: com.person.snwb
-Version: 1.0
+Version: 1.0.1
 Priority: optional
 Section: Tweaks
 Maintainer: xthepersonx
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//safarinoswipebacks/packages/com.person.snwb_1.0_iphoneos-arm.deb
-Size: 2926
+Filename: Files//safarinoswipebacks/packages/com.person.snwb_1.0.1_iphoneos-arm.deb
+Size: 3254
 Installed-Size: 124
-MD5sum: 73a97d2cc3cc2313b644d10a80829f49
+MD5sum: 83fc24239ad31c8b8f4dcaec92cf283d
 Description: Disables backward and forward swiping in safari!
 Name: SafariNoSwipeBacks
 Author: xthepersonx
