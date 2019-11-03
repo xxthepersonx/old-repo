@@ -129,9 +129,9 @@ Maintainer: xthepersonx
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: Files//safarinoswipebacks/packages/com.person.snwb_1.0.1_iphoneos-arm.deb
-Size: 3254
-Installed-Size: 124
-MD5sum: 83fc24239ad31c8b8f4dcaec92cf283d
+Size: 2998
+Installed-Size: 120
+MD5sum: eb71f436182a6d2fed041e4c0271505a
 Description: Disables backward and forward swiping in safari!
 Name: SafariNoSwipeBacks
 Author: xthepersonx
