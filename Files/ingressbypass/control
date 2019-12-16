@@ -1,9 +1,0 @@
-Package: com.person.ibypass
-Name: IngressBypass
-Depends: mobilesubstrate
-Version: 0.0.1
-Architecture: iphoneos-arm
-Description: A bypass that should allow you to play Ingress while jailbroken
-Maintainer: xxhepersonx
-Author: xxhepersonx
-Section: Tweaks

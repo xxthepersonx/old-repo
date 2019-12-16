@@ -24,20 +24,6 @@ Description: Installs the latest emojis to your device! For iOS 12 ONLY, make su
 Name: EmojiPorter (12)
 Author: xxthepersonx
 
-Package: com.person.ibypass
-Version: 0.0.1
-Section: Tweaks
-Maintainer: xxhepersonx
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: Files//ingressbypass/packages/com.person.ibypass_0.0.1_iphoneos-arm.deb
-Size: 2592
-Installed-Size: 120
-MD5sum: aea9f69c881f26ae2e4f79b02bd00fa7
-Description: A bypass that should allow you to play Ingress while jailbroken
-Name: IngressBypass
-Author: xxhepersonx
-
 Package: com.person.ignoswipebacks
 Version: 0.0.1-1+debug
 Section: Tweaks
