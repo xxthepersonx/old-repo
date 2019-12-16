@@ -1,0 +1,10 @@
+Package: com.person.ilr
+Name: IconLabelRemover
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: xxthepersonx
+Author: xxthepersonx
+Section: Tweaks
+Version: 0.0.1
+Installed-Size: 120
