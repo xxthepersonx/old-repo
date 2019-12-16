@@ -1,4 +1,4 @@
-/var/mobile/iconlabelremover/.theos/obj/armv7/Tweak.x.9d77e821.o: \
+/var/mobile/iconlabelremover/.theos/obj/armv7/Tweak.x.d194f64c.o: \
   /var/mobile/iconlabelremover/.theos/obj/armv7/Tweak.x.m \
   /var/theos/Prefix.pch /var/theos/include/_Prefix/BackwardsCompat.h \
   /var/theos/include/_Prefix/IOSMacros.h /var/theos/include/HBLog.h \

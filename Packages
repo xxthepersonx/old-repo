@@ -52,6 +52,20 @@ Description: Disable “swiping to go back” in Instagram. Helpful if it happen
 Name: IGNoSwipeBacks
 Author: xxthepersonx
 
+Package: com.person.ilr
+Version: 1.0
+Section: Tweaks
+Maintainer: xxthepersonx
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files//iconlabelremover/packages/com.person.ilr_1.0_iphoneos-arm.deb
+Size: 3430
+Installed-Size: 120
+MD5sum: db35c015cda702ca755b993229894319
+Description: Removes Icon Labels. No settings to configure! Tested on iOS 11
+Name: IconLabelRemover
+Author: xxthepersonx
+
 Package: com.person.nalb
 Version: 0.0.1-5+debug
 Section: Tweaks

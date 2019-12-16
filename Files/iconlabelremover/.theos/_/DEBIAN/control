@@ -2,9 +2,9 @@ Package: com.person.ilr
 Name: IconLabelRemover
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
+Description: Removes Icon Labels. No settings to configure! Tested on iOS 11
 Maintainer: xxthepersonx
 Author: xxthepersonx
 Section: Tweaks
-Version: 0.0.1
+Version: 1.0
 Installed-Size: 120
