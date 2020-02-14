@@ -1,3 +1,17 @@
+Package: com.person.btspotify
+Version: 1.0.0
+Section: Tweaks
+Maintainer: xxthepersonx
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files//backtrackspotify/packages/com.person.btspotify_1.0.0_iphoneos-arm.deb
+Size: 3214
+Installed-Size: 104
+MD5sum: e0ec9ac2c176fc5485c05be6609b832d
+Description: Skip to previous track every time back skip button is pressed. No more restarting my songs!
+Name: BackTrackSpotify
+Author: xxthepersonx
+
 Package: com.person.emojiporter1011
 Version: 1.0
 Section: Tweaks
