@@ -101,10 +101,10 @@ Maintainer: xxthepersonx
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: Files//SBWelcomesYou/SBWelcomesYou.deb
-Size: 164996
+Size: 165028
 Installed-Size: 216
-MD5sum: c6b7c13aacc5ad725f394b6a34da1f71
-Description: plays a sound when you respring your device!
+MD5sum: e70eb0bf13e8551719401a49a25f15bc
+Description: Plays the windows startup sound when you respring your device! Also supports custom sounds!
 Name: SBWelcomesYou
 Author: xxthepersonx
 
