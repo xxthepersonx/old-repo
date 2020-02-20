@@ -12,7 +12,9 @@ NSString * soundExtension = @"mp3";
 %hook SpringBoard
 -(void)applicationDidFinishLaunching:(id)application{
 
-if ([prefs boolForKey:@"enabled"]) {
+if (![prefs boolForKey:@"enabled"]) {
+%orig;
+} else {
 
 if ([prefs boolForKey:@"customSoundEnabled"]) {
 
@@ -37,10 +39,6 @@ AVPlayer *soundPlayer = [[AVPlayer alloc] initWithPlayerItem:sound];
     soundPlayer.actionAtItemEnd = AVPlayerActionAtItemEndNone;
 
 [soundPlayer play];
-
-} else {
-
-%orig;
 
 }
 }
