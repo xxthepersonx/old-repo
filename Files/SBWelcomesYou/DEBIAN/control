@@ -1,0 +1,10 @@
+Package: com.person.sbwy
+Name: SBWelcomesYou
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: plays a sound when you respring your device!
+Maintainer: xxthepersonx
+Author: xxthepersonx
+Section: Tweaks
+Version: 1.0
+Installed-Size: 216

@@ -94,6 +94,20 @@ Description: Removes the page dots from the HomeScreen
 Name: NoPageDots
 Author: xxthepersonx
 
+Package: com.person.sbwy
+Version: 1.0
+Section: Tweaks
+Maintainer: xxthepersonx
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files//SBWelcomesYou/SBWelcomesYou.deb
+Size: 164996
+Installed-Size: 216
+MD5sum: c6b7c13aacc5ad725f394b6a34da1f71
+Description: plays a sound when you respring your device!
+Name: SBWelcomesYou
+Author: xxthepersonx
+
 Package: com.person.scrubup
 Version: 1.0
 Section: Tweaks
