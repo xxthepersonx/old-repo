@@ -1,3 +1,17 @@
+Package: com.lpane.googlemapsdefault
+Version: 0.0.2
+Section: Tweaks
+Maintainer: lpane
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files//GoogleMapsDefault/packages/com.lpane.googlemapsdefault_0.0.2_iphoneos-arm.deb
+Size: 3890
+Installed-Size: 104
+MD5sum: 5b35eee98eb7e33c8f4f9d751cb14ad8
+Description: Set Google Maps to the default browser
+Name: GoogleMapsDefault
+Author: lpane
+
 Package: com.person.btspotify
 Version: 1.0.0
 Section: Tweaks
