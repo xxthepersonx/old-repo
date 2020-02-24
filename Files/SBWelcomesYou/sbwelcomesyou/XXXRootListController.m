@@ -4,6 +4,17 @@ extern char **environ;
 
 @implementation XXXRootListController
 
+
+-(NSArray *)soundFiles {
+
+NSString *bundleRoot = [[NSBundle bundleWithPath:@"/var/mobile/SBWelcomesYou/"] bundlePath];
+NSFileManager *fm = [NSFileManager defaultManager];
+NSArray *allFiles = [fm contentsOfDirectoryAtPath:bundleRoot error:nil];
+
+    return allFiles;
+}
+
+
 - (NSArray *)specifiers {
 	if (!_specifiers) {
 		_specifiers = [self loadSpecifiersFromPlistName:@"Root" target:self];
@@ -27,5 +38,16 @@ waitpid(pid, NULL, 0);
 
 
       }
+
+
+-(NSArray *)soundTitles {
+
+    return [self soundFiles];
+}
+
+-(NSArray *)soundValues {
+
+   return [self soundFiles];
+}
 
 @end

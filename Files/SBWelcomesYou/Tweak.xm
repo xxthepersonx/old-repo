@@ -2,30 +2,23 @@
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 
+
+
 NSUserDefaults *prefs = [[NSUserDefaults alloc] initWithSuiteName:@"com.person.sbwy"];
 
 NSBundle *soundsFolder = [NSBundle bundleWithPath:@"/var/mobile/SBWelcomesYou/"];
 
-NSString * soundName = @"sound";
-NSString * soundExtension = @"mp3";
+NSString * soundNameRaw = [prefs objectForKey:@"soundFromList"];
+
+NSString * soundName = [[soundNameRaw lastPathComponent] stringByDeletingPathExtension];
+NSString * soundExtension = [soundNameRaw pathExtension];
+
 
 %hook SpringBoard
 -(void)applicationDidFinishLaunching:(id)application{
 
 if ([prefs boolForKey:@"enabled"]) {
 
-if ([prefs boolForKey:@"customSoundEnabled"]) {
-
-soundName = [prefs objectForKey:@"nameOfSound"];
-soundExtension = [prefs objectForKey:@"extOfSound"];
-
-if ([soundName isEqualToString:@""] || [soundExtension isEqualToString:@""]) {
-
-soundName = @"sound";
-soundExtension = @"mp3";
-
-}
-}
 
 %orig;
 
