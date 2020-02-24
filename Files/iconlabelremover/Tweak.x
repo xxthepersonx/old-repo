@@ -1,10 +1,10 @@
-%hook SBIconLabelImageParameters
+%hook SBIconView
 
--(NSString *)text {
+-(void)setLabelHidden:(BOOL)arg1 {
 
-NSString *emptyText = @"";
+%orig(true);
 
-return emptyText;
 }
 
-%end;
+%end
+

@@ -2,9 +2,9 @@ Package: com.person.ilr
 Name: IconLabelRemover
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Description: Removes Icon Labels. No settings to configure! Tested on iOS 11
+Description: Removes all icon labels! 
 Maintainer: xxthepersonx
 Author: xxthepersonx
 Section: Tweaks
-Version: 1.0
-Installed-Size: 120
+Version: 1.0.1
+Installed-Size: 104
