@@ -109,16 +109,16 @@ Name: NoPageDots
 Author: xxthepersonx
 
 Package: com.person.sbwy
-Version: 1.1.1
+Version: 1.1.2
 Section: Tweaks
 Maintainer: xxthepersonx
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: Files//SBWelcomesYou/SBWelcomesYou.deb
-Size: 165606
+Size: 165846
 Installed-Size: 216
-MD5sum: 4684cdcad97f331ce25fa0be00a90f52
-Description: plays the windows startup sound when you respring your device! Also supports custom sounds! Version  1.1.1 adds a vibrate option and cleans code a bit.
+MD5sum: 21171a7c8cc3e8f44973fd0ab38d16d1
+Description: plays the windows startup sound when you respring your device! Also supports custom sounds! Version  1.1.2 adds an option to play sound early!
 Name: SBWelcomesYou
 Author: xxthepersonx
 

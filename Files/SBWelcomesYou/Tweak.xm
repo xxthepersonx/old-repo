@@ -3,8 +3,6 @@
 #import <AVFoundation/AVFoundation.h>
 #import <AudioToolbox/AudioServices.h>
 
-
-
 NSUserDefaults *prefs = [[NSUserDefaults alloc] initWithSuiteName:@"com.person.sbwy"];
 
 NSBundle *soundsFolder = [NSBundle bundleWithPath:@"/var/mobile/SBWelcomesYou/"];
@@ -22,7 +20,12 @@ AVAudioPlayer *soundPlayer;
 
 -(void)applicationDidFinishLaunching:(id)application{
 
+//if sound doesn't play early
+if (![prefs boolForKey:@"playEarly"]){
+
 %orig;
+
+}
 
 //if sound is enabled
 if ([prefs boolForKey:@"soundEnabled"]) {
@@ -39,6 +42,13 @@ soundPlayer.volume = 1;
 if ([prefs boolForKey:@"vibrateEnabled"]) {
 
 AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+
+}
+
+// if sound plays early
+if ([prefs boolForKey:@"playEarly"]){
+
+%orig;
 
 }
 
