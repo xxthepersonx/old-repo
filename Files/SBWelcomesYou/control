@@ -1,9 +1,9 @@
 Package: com.person.sbwy
 Name: SBWelcomesYou
 Depends: mobilesubstrate
-Version: 1.1
+Version: 1.1.1
 Architecture: iphoneos-arm
-Description: plays the windows startup sound when you respring your device! Also supports custom sounds! Version  1.1 revamps the preferences section!
+Description: plays the windows startup sound when you respring your device! Also supports custom sounds! Version  1.1.1 adds a vibrate option and cleans code a bit. 
 Maintainer: xxthepersonx
 Author: xxthepersonx
 Section: Tweaks

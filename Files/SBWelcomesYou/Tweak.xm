@@ -1,6 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
+#import <AudioToolbox/AudioServices.h>
 
 
 
@@ -13,27 +14,32 @@ NSString * soundNameRaw = [prefs objectForKey:@"soundFromList"];
 NSString * soundName = [[soundNameRaw lastPathComponent] stringByDeletingPathExtension];
 NSString * soundExtension = [soundNameRaw pathExtension];
 
+int feedbackValue = [[prefs objectForKey:@"feedbackValue"] intValue];
+
+AVAudioPlayer *soundPlayer;
 
 %hook SpringBoard
+
 -(void)applicationDidFinishLaunching:(id)application{
 
-if ([prefs boolForKey:@"enabled"]) {
-
-
 %orig;
 
-[[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryAmbient error:NULL];
+//if sound is enabled
+if ([prefs boolForKey:@"soundEnabled"]) {
 
-AVPlayerItem *sound = [AVPlayerItem playerItemWithURL:[soundsFolder URLForResource:soundName withExtension: soundExtension]];
+soundPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:[soundsFolder URLForResource:soundName withExtension: soundExtension] error:nil];
 
-AVPlayer *soundPlayer = [[AVPlayer alloc] initWithPlayerItem:sound];
-    soundPlayer.actionAtItemEnd = AVPlayerActionAtItemEndNone;
-
+soundPlayer.numberOfLoops = 0;
+soundPlayer.volume = 1;
 [soundPlayer play];
 
-} else {
+}
 
-%orig;
+//if feedback is enabled
+if ([prefs boolForKey:@"vibrateEnabled"]) {
+
+AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+
 }
 
 }

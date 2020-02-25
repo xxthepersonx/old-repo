@@ -7,7 +7,7 @@ include $(THEOS)/makefiles/common.mk
 TWEAK_NAME = SBWelcomesYou
 
 SBWelcomesYou_FILES = Tweak.xm
-SBWelcomesYou_FRAMEWORKS = UIKit Foundation AVFoundation
+SBWelcomesYou_FRAMEWORKS = UIKit Foundation AVFoundation AudioToolbox
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 SUBPROJECTS += sbwelcomesyou

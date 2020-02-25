@@ -12,9 +12,21 @@
 			<key>defaults</key>
 			<string>com.person.sbwy</string>
 			<key>key</key>
-			<string>enabled</string>
+			<string>soundEnabled</string>
 			<key>label</key>
-			<string>Enabled</string>
+			<string>Sound Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.person.sbwy</string>
+			<key>key</key>
+			<string>vibrateEnabled</string>
+			<key>label</key>
+			<string>Vibrate Enabled</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -38,6 +50,12 @@
         <key>titlesDataSource</key>
         <string>soundTitles</string>
     </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string> </string>
+		</dict>
 		<dict>
 			<key>action</key>
 			<string>respring</string>
