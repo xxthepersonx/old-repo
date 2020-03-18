@@ -178,3 +178,17 @@ Description: Disables backward and forward swiping in safari!
 Name: SafariNoSwipeBacks
 Author: xthepersonx
 
+Package: com.person.volumepercent12
+Version: 0.0.1
+Section: Tweaks
+Maintainer: xxthepersonx
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files//volumepercent12/packages/com.person.volumepercent12_0.0.1_iphoneos-arm.deb
+Size: 9516
+Installed-Size: 116
+MD5sum: 23604374e82255992ddedfcddb0138a8
+Description: An awesome MobileSubstrate tweak!
+Name: VolumePercent12
+Author: xxthepersonx
+
