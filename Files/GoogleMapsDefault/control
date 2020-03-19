@@ -1,9 +1,0 @@
-Package: com.lpane.googlemapsdefault
-Name: GoogleMapsDefault
-Depends: mobilesubstrate
-Version: 0.0.2
-Architecture: iphoneos-arm
-Description: Set Google Maps to the default browser
-Maintainer: lpane
-Author: lpane
-Section: Tweaks

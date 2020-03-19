@@ -1,0 +1,9 @@
+Package: com.person.zebraautofinish
+Name: ZebraAutoFinish
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Automatically closes Zebra's console window after installing/uninstalling a package! 
+Maintainer: xxthepersonx
+Author: xxthepersonx
+Section: Tweaks
