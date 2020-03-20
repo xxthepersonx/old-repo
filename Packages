@@ -204,19 +204,3 @@ Description: An awesome MobileSubstrate tweak!
 Author: xxthepersonx
 Name: VolumePercent12
 
-Package: com.person.zebraautofinish
-Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: xxthepersonx
-Installed-Size: 104
-Depends: mobilesubstrate
-Filename: ./Files/zebraautofinish/packages/com.person.zebraautofinish_1.0.0_iphoneos-arm.deb
-Size: 4130
-MD5sum: 7c082a4c44e207df2c233a1a439bf2f9
-SHA1: 8f71295ea24ffcf7849a2ab910f197d8e48336a8
-SHA256: 67fae8f156b42d67f5a79c118a130141de4b368be97c6c5e786704e0d7830a91
-Section: Tweaks
-Description: Automatically closes Zebra's console window after installing/uninstalling a package!
-Author: xxthepersonx
-Name: ZebraAutoFinish
-
