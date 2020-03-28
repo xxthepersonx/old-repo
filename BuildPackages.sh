@@ -7,5 +7,5 @@ xz -9fkev Packages > Packages.xz
 bzip2 -cf Packages > Packages.bz2
 
 git add -A
-git commit -m "Temp remove ZebraAutoFinish"
+git commit -m "Add MessageCount"
 git push -u origin master
