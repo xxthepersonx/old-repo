@@ -77,16 +77,16 @@ Author: xxthepersonx
 Name: IconLabelRemover
 
 Package: com.person.messagecount
-Version: 1.0.0
+Version: 1.1.0
 Architecture: iphoneos-arm
 Maintainer: xxthepersonx
-Installed-Size: 104
+Installed-Size: 216
 Depends: mobilesubstrate
-Filename: ./Files/messagecount1/packages/com.person.messagecount_1.0.0_iphoneos-arm.deb
-Size: 4088
-MD5sum: 7552674cf8cb93ecb5b2e6a2e308f88c
-SHA1: 54d0c55a4e9fcb5ebf153aa90acbe749a1432dc6
-SHA256: d340cffc2d5f891136f3dcb90b117af0c21f8cb035d580119fd7e6ff95c1277c
+Filename: ./Files/messagecount/packages/com.person.messagecount_1.1.0_iphoneos-arm.deb
+Size: 7132
+MD5sum: 78869044e26678362aeaa3b1a47990c4
+SHA1: a21c5c0bca65d3c683591deb86c54d2cdce6cc34
+SHA256: 004a38e1ee9278fe97dba260fddd6070ce6b443ad1465b51a641f0befc20e222
 Section: Tweaks
 Description: Keeps track of how many messages you've sent!
 Author: xxthepersonx
