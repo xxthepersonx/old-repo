@@ -144,13 +144,13 @@ Package: com.person.scrubup
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: xxthepersonx
-Installed-Size: 248
+Installed-Size: 312
 Depends: mobilesubstrate
 Filename: ./Files/scrubup/packages/com.person.scrubup_1.0_iphoneos-arm.deb
-Size: 7498
-MD5sum: 63f76e01a7c1316aad9f308a163e0fb3
-SHA1: 0c547f0550be74d98767534bad16f197b542bfeb
-SHA256: ebb0e06f2e370c48940b59b3d7c07af49a06dd4b000d0617d62b3b139a148392
+Size: 7222
+MD5sum: 4b280272db5b6d13a819d9fdf070e8fe
+SHA1: bea782bdd9cb7c63ea0e5c317960ed18c32e19c8
+SHA256: d362d2f67137fe1551d51bf1d0d508f345f4457e7e885d262f109a216f71f488
 Section: Tweaks
 Description: Customize your lock screen scrubber size
 Author: xxthepersonx

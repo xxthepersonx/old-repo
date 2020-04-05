@@ -7,5 +7,5 @@ xz -9fkev Packages > Packages.xz
 bzip2 -cf Packages > Packages.bz2
 
 git add -A
-git commit -m "update VolButtonBrightness 1.0.2"
+git commit -m "Temporary ScrubUp update "
 git push -u origin master

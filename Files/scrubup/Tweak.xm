@@ -1,24 +1,21 @@
-@interface MediaControlsTimeControl
-@property(nonatomic, assign, readwrite) UIView *knobView;
-@end
-
 float sliderSize;
 
 %group hooks
 
 %hook MediaControlsTimeControl
 
--(void)layoutSubviews {
+-(UIView *)knobView {
 
-%orig;
+UIView *theView = %orig;
 
-UIView *sliderView = MSHookIvar<UIView *>(self, "_knobView");
+theView.frame = CGRectMake((theView.frame.origin.x-(sliderSize-theView.frame.size.width))+((sliderSize/2)-(theView.frame.size.width/2)), (theView.frame.origin.y-(sliderSize-theView.frame.size.height))+((sliderSize/2)-(theView.frame.size.height/2)), sliderSize, sliderSize);
 
-[sliderView setFrame:CGRectMake(sliderView.frame.origin.x-(sliderSize/2)+(sliderView.frame.size.width/2), sliderView.frame.origin.y-(sliderSize/2)+(sliderView.frame.size.height/2),sliderSize,sliderSize)];
 
-sliderView.layer.cornerRadius = sliderSize/2;
+theView.layer.cornerRadius = sliderSize/2;
 
-        }
+return theView;
+
+}
 
 %end
 %end
@@ -29,12 +26,10 @@ sliderView.layer.cornerRadius = sliderSize/2;
 
     if ([prefs boolForKey:@"enabled"]) {
     
-    sliderSize = [prefs objectForKey:@"kSize"] floatValue];
+    sliderSize = [[prefs objectForKey:@"kSize"] floatValue];
     
     %init(hooks);
     
     }
-
-
 
 }
