@@ -205,16 +205,16 @@ Author: xthepersonx
 Name: SafariNoSwipeBacks
 
 Package: com.person.volbuttonbrightness
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: xxthepersonx
 Installed-Size: 216
 Depends: mobilesubstrate
-Filename: ./Files/volbuttonbrightness/packages/com.person.volbuttonbrightness_1.0.0_iphoneos-arm.deb
-Size: 6264
-MD5sum: 272bdca39a6f493f8fab96831ab25d10
-SHA1: f8b5b560023e1bb68c1598a4b1ec346d86313ea7
-SHA256: c873764492dc857bbac17c9f90e2dfda38e1d74a696b8eccc3d211c7bf44645c
+Filename: ./Files/volbuttonbrightness/packages/com.person.volbuttonbrightness_1.0.1_iphoneos-arm.deb
+Size: 6172
+MD5sum: 8ecd46d538a7f3a0fb04d45a38048251
+SHA1: c620e06b027832ef071be4f3443c16a153264de3
+SHA256: 362ee7d10081f8da8de2ea22313e6d489011a52b0e103a8e439b12889cce935f
 Section: Tweaks
 Description: Change the brightness with your volume buttons!
 Author: xxthepersonx

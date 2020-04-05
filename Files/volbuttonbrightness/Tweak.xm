@@ -12,15 +12,6 @@ BOOL enableHUD = NO;
 
 %group hooks
 
-%hook SBBrightnessController
-
--(void)setBrightnessLevel:(float)arg1 {
-%orig;
-brightnessLevel1 = arg1;
-}
-%end
-
-
 %hook VolumeControl
 
 - (void)increaseVolume {
