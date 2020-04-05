@@ -51,10 +51,10 @@ newBrightness = brightnessLevel1 -brightnessStep;
 NSUserDefaults *prefs = [[NSUserDefaults alloc] initWithSuiteName:@"com.person.volbuttonbrightness"];
 
 if ([prefs boolForKey:@"enabled"]) {
-%init(hooks);
 brightnessStep = [[prefs objectForKey:@"brightnessStep"] floatValue]/100;
 if ([prefs boolForKey:@"enableHUD"]) {
 enableHUD = YES;
+%init(hooks);
 }
 }
 }

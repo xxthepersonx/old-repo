@@ -1,19 +1,14 @@
-#import <UIKit/UIKit.h>
-
 @interface MediaControlsTimeControl
 @property(nonatomic, assign, readwrite) UIView *knobView;
 @end
 
-NSDictionary *sliderSize = [NSDictionary dictionaryWithContentsOfFile:[NSString stringWithFormat:@"/var/mobile/Library/Preferences/com.person.scrubupprefs.plist"]];
+float sliderSize;
 
-NSUserDefaults *prefs = [[NSUserDefaults alloc] initWithSuiteName:@"com.person.scrubupprefs"];
+%group hooks
 
 %hook MediaControlsTimeControl
 
 -(void)layoutSubviews {
-
-
-        if ([prefs boolForKey:@"enabled"]) {
 
 %orig;
 
@@ -23,12 +18,23 @@ UIView *sliderView = MSHookIvar<UIView *>(self, "_knobView");
 
 sliderView.layer.cornerRadius = [[sliderSize objectForKey:@"kSize"] floatValue]/2;
 
-        } else {
-
-      %orig;
-
         }
 
-}
-
 %end
+%end
+
+%ctor {
+
+    NSUserDefaults *prefs = [[NSUserDefaults alloc] initWithSuiteName:@"com.person.scrubupprefs"];
+
+    if ([prefs boolForKey:@"enabled"]) {
+    
+    sliderSize = [prefs objectForKey:@"kSize"] floatValue];
+    
+    %init(hooks);
+    
+    }
+
+
+
+}
