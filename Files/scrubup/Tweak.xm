@@ -14,9 +14,9 @@ float sliderSize;
 
 UIView *sliderView = MSHookIvar<UIView *>(self, "_knobView");
 
-[sliderView setFrame:CGRectMake(sliderView.frame.origin.x-([[sliderSize objectForKey:@"kSize"] floatValue]/2)+(sliderView.frame.size.width/2), sliderView.frame.origin.y-([[sliderSize objectForKey:@"kSize"] floatValue]/2)+(sliderView.frame.size.height/2),[[sliderSize objectForKey:@"kSize"] floatValue],[[sliderSize objectForKey:@"kSize"] floatValue])];
+[sliderView setFrame:CGRectMake(sliderView.frame.origin.x-(sliderSize/2)+(sliderView.frame.size.width/2), sliderView.frame.origin.y-(sliderSize/2)+(sliderView.frame.size.height/2),sliderSize,sliderSize)];
 
-sliderView.layer.cornerRadius = [[sliderSize objectForKey:@"kSize"] floatValue]/2;
+sliderView.layer.cornerRadius = sliderSize/2;
 
         }
 
