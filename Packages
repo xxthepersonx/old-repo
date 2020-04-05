@@ -45,16 +45,16 @@ Author: xxthepersonx
 Name: EmojiPorter (12)
 
 Package: com.person.ignoswipebacks
-Version: 0.0.1-1+debug
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: xxthepersonx
-Installed-Size: 120
+Installed-Size: 116
 Depends: mobilesubstrate
-Filename: ./Files/ignoswipebacks/packages/com.person.ignoswipebacks_0.0.1-1+debug_iphoneos-arm.deb
-Size: 2960
-MD5sum: 03a1c5af709a1551d26920d77414b7da
-SHA1: e6be2ede4b998772821f6b29b4ba586358995e68
-SHA256: 1ab186a6e5c5f3db40f2f0dbe6a6f4e7fac5cb294bf4edbfa75221bd61137dd1
+Filename: ./Files/ignoswipebacks/packages/com.person.ignoswipebacks_1.0.1_iphoneos-arm.deb
+Size: 6290
+MD5sum: f1d5559f7220fb347b9d1efffa7b8e9e
+SHA1: a8f2df6700ab310cd5f11f337fb06f94318fdb08
+SHA256: b1f06bce6bfeef4e16be3452a560fa7156432b3dcc6c9470e96b6e709591a3ec
 Section: Tweaks
 Description: Disable “swiping to go back” in Instagram. Helpful if it happens on accident while scrolling
 Author: xxthepersonx

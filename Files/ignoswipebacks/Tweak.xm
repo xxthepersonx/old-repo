@@ -1,8 +1,8 @@
 %hook IGNavigationController
 
-- (BOOL)panGestureEnabled {
+- (void)setPanGestureEnabled:(BOOL)arg1 {
 
-return FALSE;
+%orig(false);
 
 }
 
