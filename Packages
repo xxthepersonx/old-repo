@@ -124,6 +124,22 @@ Description: Removes the page dots from the HomeScreen
 Author: xxthepersonx
 Name: NoPageDots
 
+Package: com.person.ringerpercent13
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: xxthepersonx
+Installed-Size: 216
+Depends: mobilesubstrate, com.creaturesurvive.libcscolorpicker
+Filename: ./Files/ringerpercent13/packages/com.person.ringerpercent13_1.0.0_iphoneos-arm.deb
+Size: 6742
+MD5sum: 46ebd4f4a8e866f0a66af0e8e44c0c64
+SHA1: 6ee1f2bcc02181e7c4bbe0566376821ad03cb9a5
+SHA256: c9d63c0b9cffc5b8bb01af26d332d109aba5d1b5a24922456067ec5e8145e53e
+Section: Tweaks
+Description: Creates a small percentage label to your ringer volume on iOS 13!
+Author: xxthepersonx
+Name: RingerPercent13
+
 Package: com.person.sbwy
 Version: 1.1.2
 Architecture: iphoneos-arm
